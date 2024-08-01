@@ -1,7 +1,6 @@
 {
-  "name": "tkit-date",
+  "name": "@malaniuk/tkit-date",
   "version": "1.0.0",
-  "description": "",
   "scripts": {
     "build": "tsc",
     "prettier": "prettier --write \"**/*.{js,jsx,ts,tsx,css}\"",
@@ -38,8 +37,10 @@
       "default": "./lib/format/index.js"
     }
   },
-  "dependencies": {
-  },
   "author": "malaniuk <malaniuk.git@gmail.com>",
-  "license": "ISC"
+  "license": "ISC",
+  "directories": {
+    "lib": "lib"
+  },
+  "description": ""
 }
