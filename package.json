@@ -26,15 +26,11 @@
   "exports": {
     ".": {
       "types": "./lib/index.d.ts",
-      "import": "./lib/index.js",
-      "require": "./lib/index.js",
       "default": "./lib/index.js"
     },
     "./format": {
-      "types": "./lib/format/index.d.ts",
-      "import": "./lib/format/index.js",
-      "require": "./lib/format/index.js",
-      "default": "./lib/format/index.js"
+      "types": "./format/index.d.ts",
+      "default": "./format/index.js"
     }
   },
   "author": "malaniuk <malaniuk.git@gmail.com>",
