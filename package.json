@@ -1,0 +1,45 @@
+{
+  "name": "tkit-date",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "build": "tsc",
+    "prettier": "prettier --write \"**/*.{js,jsx,ts,tsx,css}\"",
+    "prepublish": "npm run --if-present build"
+  },
+  "devDependencies": {
+    "@types/node": "^18.19.39",
+    "@typescript-eslint/eslint-plugin": "^5.42.1",
+    "@typescript-eslint/parser": "^5.42.1",
+    "eslint": "^8.27.0",
+    "eslint-config-prettier": "^9.0.0",
+    "eslint-plugin-prettier": "^5.0.0",
+    "eslint-plugin-simple-import-sort": "^12.1.0",
+    "prettier": "^3.0.0",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.4.3"
+  },
+  "main": "./lib/index.js",
+  "typings": "./lib/index.d.ts",
+  "files": [
+    "lib/**/*"
+  ],
+  "exports": {
+    ".": {
+      "types": "./lib/index.d.ts",
+      "import": "./lib/index.js",
+      "require": "./lib/index.js",
+      "default": "./lib/index.js"
+    },
+    "./format": {
+      "types": "./lib/format/index.d.ts",
+      "import": "./lib/format/index.js",
+      "require": "./lib/format/index.js",
+      "default": "./lib/format/index.js"
+    }
+  },
+  "dependencies": {
+  },
+  "author": "malaniuk <malaniuk.git@gmail.com>",
+  "license": "ISC"
+}
