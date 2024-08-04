@@ -1,6 +1,10 @@
 {
   "name": "@malaniuk/tkit-date",
-  "version": "1.0.3",
+  "version": "1.0.4",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/malaniuk/tkit-date.git"
+  },
   "scripts": {
     "build": "tsc",
     "push": "npm publish --access public"
