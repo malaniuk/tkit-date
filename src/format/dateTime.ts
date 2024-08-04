@@ -1,4 +1,4 @@
-export const dateTime = (date: Date) =>
+export const dateTimeStr = (date: Date) =>
   date.toLocaleDateString('en-GB', {
     hour12: false,
     year: 'numeric',
@@ -8,7 +8,7 @@ export const dateTime = (date: Date) =>
     minute: '2-digit',
   });
 
-export const dateTimeExcel = (date: Date) => {
+export const dateTimeExcelStr = (date: Date) => {
   const str = date.toLocaleDateString('en-GB', {
     hour12: false,
     year: 'numeric',
