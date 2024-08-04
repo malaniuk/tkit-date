@@ -1,6 +1,7 @@
 {
   "name": "@malaniuk/tkit-date",
-  "version": "1.0.4",
+  "description": "",
+  "version": "1.0.5",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/malaniuk/tkit-date.git"
@@ -26,20 +27,9 @@
   "files": [
     "lib/**/*"
   ],
-  "exports": {
-    ".": {
-      "types": "./lib/index.d.ts",
-      "default": "./lib/index.js"
-    },
-    "./format": {
-      "types": "./format/index.d.ts",
-      "default": "./format/index.js"
-    }
-  },
   "author": "malaniuk <malaniuk.git@gmail.com>",
   "license": "ISC",
   "directories": {
     "lib": "lib"
-  },
-  "description": ""
+  }
 }
