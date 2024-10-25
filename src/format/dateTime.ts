@@ -1,5 +1,6 @@
-export const dateTimeStr = (date: Date) =>
+export const dateTimeStr = (date: Date, timeZone?: string) =>
   date.toLocaleDateString('en-GB', {
+    timeZone,
     hour12: false,
     year: 'numeric',
     month: '2-digit',
@@ -8,8 +9,9 @@ export const dateTimeStr = (date: Date) =>
     minute: '2-digit',
   });
 
-export const dateTimeExcelStr = (date: Date) => {
+export const dateTimeExcelStr = (date: Date, timeZone?: string) => {
   const str = date.toLocaleDateString('en-GB', {
+    timeZone,
     hour12: false,
     year: 'numeric',
     month: '2-digit',
